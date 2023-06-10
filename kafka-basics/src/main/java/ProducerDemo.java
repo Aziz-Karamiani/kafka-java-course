@@ -3,7 +3,6 @@ import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.slf4j.impl.SimpleLoggerFactory;
 
 import java.util.Properties;
@@ -11,7 +10,7 @@ import java.util.Properties;
 public class ProducerDemo {
     public static final Logger log = new SimpleLoggerFactory().getLogger(ProducerDemo.class.getSimpleName());
     public static void main(String[] args) {
-        log.info("Hello World.");
+        log.info("I am a producer.");
 
         // Config
         Properties properties = new Properties();
